@@ -31,7 +31,7 @@ public class PurpleAlcohol extends HttpServlet {
 	
 	private void doWhatever(HttpServletRequest req, HttpServletResponse resp){
 		System.out.println("received");
-		resp.setHeader("Access-Control-Allow-Origin", "*");
+		//resp.setHeader("Access-Control-Allow-Origin", "*");
 	    //resp.setHeader("Access-Control-Request-Method", "GET");
 		
 		try {
